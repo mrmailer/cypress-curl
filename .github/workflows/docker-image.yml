@@ -32,5 +32,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: mrmailer/cypress-curl:latest
         if: steps.check.outputs.needs-updating == 'true'
