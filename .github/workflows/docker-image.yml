@@ -2,7 +2,7 @@ name: Check docker image for multiple platforms
 
 on:
   schedule:
-    - cron:  '0 4 * * *'
+    - cron:  '0 * * * *'
 
 jobs:
   check:
